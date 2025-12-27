@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Yasser PiP Player",
+  "version": "1.0",
+  "description": "تشغيل أي فيديو في نافذة عائمة بضغطة زر",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_title": "تفعيل Picture-in-Picture"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
